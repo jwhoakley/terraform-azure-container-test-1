@@ -1,0 +1,1 @@
+c.f. Learn page for creating containers in Azure with Terraform - https://learn.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-terraform
