@@ -10,6 +10,13 @@ terraform {
       version = "~>3.0"
     }
   }
+  cloud {
+    organization = "AZJWHO"
+    workspaces {
+      name = "terraform-azure-container-test-1"
+    }
+  }
+
 }
 provider "azurerm" {
   features {}
