@@ -6,20 +6,20 @@ variable "resource_group_location" {
 
 variable "resource_group_name_prefix" {
   type        = string
-  default     = "rg"
+  default     = "azjwho-aci-rg"
   description = "Prefix of the resource group name that's combined with a random value so name is unique in your Azure subscription."
 }
 
 variable "container_group_name_prefix" {
   type        = string
   description = "Prefix of the container group name that's combined with a random value so name is unique in your Azure subscription."
-  default     = "acigroup"
+  default     = "azjwho-acigroup"
 }
 
 variable "container_name_prefix" {
   type        = string
   description = "Prefix of the container name that's combined with a random value so name is unique in your Azure subscription."
-  default     = "aci"
+  default     = "azjwho-aci"
 }
 
 variable "image" {
